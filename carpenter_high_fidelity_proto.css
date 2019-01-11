@@ -1,0 +1,234 @@
+﻿body
+{
+    display: flex;
+    flex-direction: column;
+      background-image: url("./hardwood_floor.jpg");
+    margin:0px;
+    
+}
+.headeritem0 {
+    display: flex;
+    flex-direction: row;
+    color:ivory;
+    flex-grow:1;
+    background-color:rgb(22, 21, 21);
+    padding:10px;
+    width:99%;
+    align-items: center;
+    justify-content: space-between;
+    
+   }
+    .menu > div > h2:hover, .user_info > div > h2:hover{
+       background-color: ivory;
+       color: rgb(22, 21, 21);
+       cursor: pointer;
+   }
+
+   .headeritem1 h1{
+       font-size:100pt;
+       font-family: pristina; 
+       color:ivory;
+       
+       padding: 50px;
+       
+   }
+
+ .menu {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+}
+.menu > div {
+    margin: 0 20px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+.logo > img {
+    margin: 0 120px 0 20px;
+}
+.user_info{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+}
+.user_info > div {
+    margin: 0 20px;
+}
+.headeritem1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("./hardwood_floor.jpg");
+    justify-content: center;
+    align-items: center;
+    flex-grow:5;
+    height:500px;
+    width:100%;
+ 
+}
+.headeritem1 .banner{
+     width: 100%;
+     height:auto;
+    
+   
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    flex-grow:1;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-image: url("./hardwood_floor.jpg");
+    justify-content: center;
+    align-items: center;
+    
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./hardwood_floor.jpg");
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+    margin-bottom:200px;
+    
+      
+}
+.mainitem0{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px orange;
+    padding:0px 50px;
+    margin: 0px 10% 100px 0;
+    background-color:ivory;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 22pt;
+    z-index: 1;
+}
+.mainitem0 > h3:hover, .mainitem0 > ul > li:hover{
+  background-color:rgb(105, 105, 172);
+  color: ivory;
+  cursor: pointer;
+}
+.mainitem1 {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px orange;
+    background-color:ivory;
+    margin: 0px 0 300px 0 ;
+    align-items: center;
+    padding:10px 0px;
+  
+}
+.mitemitem{
+    display: flex;
+    flex-direction: row;
+
+    background-color:ivory;
+
+    align-items: center;
+ 
+
+}
+.mitemitem0{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    background-color:ivory;
+    align-items: center;
+ 
+
+}
+.mitemitem > img {
+    margin: 10px;
+}
+.mitemitem0 > img {
+    margin: 10px;
+}
+.mainitem2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./hardwood_floor.jpg");
+     justify-content: center;
+    align-items: center;
+    
+}
+.mitemitem >p{
+    font-size: 50pt;
+    margin:25px;
+
+}
+.mitemitem0 >p{
+    font-size: 18pt;
+    margin:25px;
+
+}
+.mitemitem p:hover {
+    font-size: 50pt;
+    color:rgb(105, 105, 172);
+    cursor: pointer;
+}
+.custom {
+    background-color: ivory;
+    flex-grow: 1;
+    width:100%;
+    height:auto;
+    background-color:rgb(105, 105, 172);
+    margin: 0 0 70px 0;
+    color: ivory;
+    font-family: pristina;
+    font-size: 50pt;
+}
+.gallery {
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+    height:auto;
+    width:100%;
+    background-color:rgb(165, 109, 162);
+    margin: 0 0 70px 0;
+    color: ivory;
+    font-family: pristina;
+    font-size: 50pt;
+ 
+  
+
+}
+.gallery:hover{
+    background-color: ivory;
+    color:rgb(165, 109, 162);
+}
+.custom:hover{
+    background-color: ivory;
+    color:rgb(105, 105, 172);
+}
+.custom > h1, .gallery > h1 {
+    padding-left: 30%;
+}
+.custom > h1:hover{
+    color:rgb(105, 105, 172);
+    background-color: ivory;
+}
+.gallery > h1:hover {
+    color:rgb(165, 109, 162);
+    background-color: ivory;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./hardwood_floor.jpg");
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
